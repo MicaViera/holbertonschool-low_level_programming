@@ -6,7 +6,7 @@
 int main(void)
 {
 	char letra = 97;
-	char LETRA = 65; 
+	char LETRA = 65;
 
 	for (letra = 97; letra <= 122; letra++)
 		putchar(letra);
