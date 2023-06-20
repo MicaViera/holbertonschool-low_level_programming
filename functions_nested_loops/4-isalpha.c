@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 * _isalpha - Retuns 1 if char c is a letter,
 * and a lowercase or uppercase
