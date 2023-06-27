@@ -12,7 +12,7 @@ char *string_toupper(char *a)
 	while (a[chan++])
 	{
 		if (a[chan] >= 'a' && a[chan] <= 'z')
-			a[chan] -= - 32;
+			a[chan] -= -32;
 
 	}
 	return (a);
