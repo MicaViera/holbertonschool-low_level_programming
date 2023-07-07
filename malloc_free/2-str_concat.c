@@ -41,7 +41,7 @@ char *str_concat(char *s1, char *s2)
 		total++;
 	for (; s2[total2] != '\0';)
 		total2++;
-	
+
 	c = malloc(sizeof(char) * (total + total2 + 1));
 
 	if (!c)
