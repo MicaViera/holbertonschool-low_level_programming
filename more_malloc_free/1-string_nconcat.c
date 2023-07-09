@@ -18,9 +18,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (!s2)
 		s2 = "";
 
-	for (; s1[box] != '\0'; box++)
+	for (; s1[box] != '\0';)
 		box++;
-	for (; s2[box2] != '\0'; box2++)
+	for (; s2[box2] != '\0';)
 		box2++;
 
 	if (n >= box2)
