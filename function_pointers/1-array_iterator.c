@@ -8,11 +8,11 @@
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	int box;
+	unsigned int box;
 
 	if (!array && !action)
 		return;
-	
+
 	for (box = 0; box < size; box++)
 		action(array[box]);
 }
