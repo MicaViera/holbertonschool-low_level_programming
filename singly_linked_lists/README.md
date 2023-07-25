@@ -1,10 +1,10 @@
-## C - Singly Linked Lists
+# C - Singly Linked Lists
 
-# Description
+## Description
 
 On this repository I'm starting with a new project about singly linked lists.
 
-# Learning Objectives
+## Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, 
 without the help of Google:
@@ -12,7 +12,7 @@ General.
 * When and why using linked lists vs arrays
 * How to build and use linked lists.
 
-# Tasks
+## Tasks
 
 0. Print list: Write a function that prints all the elements of a *list_t* list.
 1. List length: Write a function that returns the number of elements in a 
@@ -23,10 +23,10 @@ linked *list_t* list.
 *list_t* list.
 4. Free list: Write a function that frees a *list_t* list.
 
-# Resources
+## Resources
 
 * [Linked Lists Video](https://www.youtube.com/watch?v=udapt4FGY20&t=130s)
 
-# Author
+## Author
 
 Micaela Viera.
