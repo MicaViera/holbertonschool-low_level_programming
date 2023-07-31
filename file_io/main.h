@@ -5,7 +5,10 @@
 #include <fcntl.h>
 #include <unistd.h>
 /**
- * Prototypes.
+ * read_textfile - Function that prints to the POSIX standard output.
+ * @filename: The file.
+ * @letters: the length and content.
+ * Return: the actual number of letters.
  */
 ssize_t read_textfile(const char *filename, size_t letters);
 #endif
