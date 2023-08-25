@@ -18,8 +18,8 @@ int main(void)
 		else
 			printf("%d", f);
 		if (f != 100)
-			_putchar(' ');
+			putchar(' ');
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
