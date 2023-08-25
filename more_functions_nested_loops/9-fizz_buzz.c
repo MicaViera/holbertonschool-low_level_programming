@@ -11,9 +11,9 @@ int main(void)
 	{
 		if (f % 3 == 0 && f % 5 == 0)
 			printf("FizzBuzz");
-		if (f % 3 == 0)
+		else if (f % 3 == 0)
 			printf("Fizz");
-		if (f % 5 == 0)
+		else if (f % 5 == 0)
 			printf("Buzz");
 		else
 			printf("%d", f);
